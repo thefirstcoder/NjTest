@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="10dp"
+    >
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:textColor="@color/colorAccent"
+        android:text="刘华"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:text="菜单"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
